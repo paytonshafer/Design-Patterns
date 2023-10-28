@@ -19,7 +19,7 @@ In this repository, we demonstrate the following design patterns:
 ### Creational Patterns
 1. **Factory Method**: [Link to Factory Method Examples](./Creational-Patterns/Factory-Method/)
 
-2. **Abstract Factory**: [Link to Abstract Factory Examples](./Abstract-Factory/)
+2. **Abstract Factory**: [Link to Abstract Factory Examples](./Creational-Patterns/Abstract-Factory/)
 
 <!-- Add more design patterns here as you implement them. -->
 
