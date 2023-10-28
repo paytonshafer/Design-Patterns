@@ -44,7 +44,7 @@ These steps should help you clone the repository, navigate to specific design pa
 1. **Clone the Repository:** To get started, open your terminal or command prompt and use the following command to clone the repository to your local machine:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/paytonshafer/Design-Patterns.git
    ```
 
 2. **Change Directory:** Navigate to the cloned repository's root directory using the `cd` command:
@@ -55,7 +55,7 @@ These steps should help you clone the repository, navigate to specific design pa
 
 ### Running JavaScript Code
 
-3. **Navigate to a Design Pattern Directory:** Choose a specific design pattern directory you want to explore (e.g., `Creational-Patterns/Factory-Method`):
+3. **Navigate to a Design Pattern Directory:** Choose a specific design pattern directory you want to explore (e.g., `cd Creational-Patterns/Factory-Method`):
 
    ```bash
    cd <Type-of-Pattern>/<Pattern-Name>
