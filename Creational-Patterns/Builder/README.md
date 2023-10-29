@@ -1,7 +1,7 @@
-# Abstract Factory Pattern
-This directory contains examples of the Abstract Factory design pattern implemented in TypeScript. 
+# NOT YET COMPLETE
 
-TBD
+# Builder Pattern
+This directory contains examples of the Builder design pattern implemented in TypeScript. 
 
 If at any point you would like to obtain and run these files refer to the root `README.md` found [here](../../).
 
