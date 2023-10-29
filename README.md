@@ -19,7 +19,47 @@ Design patterns are reusable solutions to common problems that software develope
 
 2. **Abstract Factory**: [Link to Abstract Factory Examples](./Creational-Patterns/Abstract-Factory/)
 
-<!-- Add more design patterns here as you implement them. -->
+3. **Builder**: [Link to Builder Examples](./Creational-Patterns/Builder/)
+
+4. **Prototype**: [Link to Prototype Examples](./Creational-Patterns/Prototype/)
+
+5. **Singleton**: [Link to Singleton Examples](./Creational-Patterns/Singleton/)
+
+### Structural Patterns
+1. **Adapter**: [Link to Adapter Examples](./Structural-Patterns/Adapter/)
+
+2. **Bridge**: [Link to Bridge Examples](./Structural-Patterns/Bridge/)
+
+3. **Composite**: [Link to Composite Examples](./Structural-Patterns/Composite/)
+
+4. **Decorator**: [Link to Decorator Examples](./Structural-Patterns/Decorator/)
+
+5. **Facade**: [Link to Facade Examples](./Structural-Patterns/Facade/)
+
+6. **Flyweight**: [Link to Flyweight Examples](./Structural-Patterns/Flyweight/)
+
+7. **Proxy**: [Link to Proxy Examples](./Structural-Patterns/Proxy/)
+
+### Behavioral Patterns
+1. **Chain of Responsibility**: [Link to Chain of Responsibility Examples](./Behavioral-Patterns/Chain-of-Responsibility/)
+
+2. **Command**: [Link to Command Examples](./Behavioral-Patterns/Command/)
+
+3. **Iterator**: [Link to Iterator Examples](./Behavioral-Patterns/Iterator/)
+
+4. **Mediator**: [Link to Mediator Examples](./Behavioral-Patterns/Mediator/)
+
+5. **Memento**: [Link to Memento Examples](./Behavioral-Patterns/Memento/)
+
+6. **Observer**: [Link to Observer Examples](./Behavioral-Patterns/Observer/)
+
+7. **State**: [Link to State Examples](./Behavioral-Patterns/State/)
+
+8. **Strategy**: [Link to Strategy Examples](./Behavioral-Patterns/Strategy/)
+
+9. **Template Method**: [Link to Template Method Examples](./Behavioral-Patterns/Template-Method/)
+
+10. **Visitor**: [Link to Visitor Examples](./Behavioral-Patterns/Visitor/)
 
 ## Project Structure
 The repository is organized into subdirectories, each corresponding to a type of design pattern. In each of those there is a directory for all the specific design pattern. Inside each design pattern directory, you will find TypeScript source code along with compiled JavaScript files. You will find a conceptual example of the design pattern named `conceptual.ts` along with one or more real-world examples named after the real-world problem they represent. Additionally, there will be a `README.md` file that explains the design pattern and provided examples.
