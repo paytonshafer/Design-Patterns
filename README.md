@@ -11,9 +11,7 @@ Welcome to the "Design Patterns in TypeScript" repository! In this project, you 
 6. [License](#license)
 
 ## Introduction
-Design patterns are reusable solutions to common problems that software developers encounter during the design and development of software applications. They provide a structured and proven approach to solving these problems, enhancing the maintainability and readability of your code.
-
-In this repository, we demonstrate the following design patterns:
+Design patterns are reusable solutions to common problems that software developers encounter during the design and development of software applications. They provide a structured and proven approach to solving these problems, enhancing the maintainability and readability of your code. See the following for a list of design patterns in this repository.
 
 ## Design Patterns
 ### Creational Patterns
