@@ -49,7 +49,7 @@ class ConcreteBuilder1 implements Builder{
 }
 
 // Here is another builder that makes a differnt product with the same parts
-class ConcreteBuilder2 {
+class ConcreteBuilder2 implements Builder{
     private product: Product2
 
     // When a new concrete builder is made we want to start with a fresh product
