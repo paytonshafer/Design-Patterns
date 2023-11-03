@@ -1,5 +1,3 @@
-# NOT YET COMPLETE
-
 # Builder Pattern
 This directory contains examples of the Builder design pattern implemented in TypeScript.The Builder pattern separates the construction of a complex object from its representation which allows for different types and representations to be created with the same construction code. Thus the pattern is used when you want to create a complex object step by step. It is particularly useful when an object may have various configurations and optional components, and you want to provide a clear and consistent way to construct the object. There is also the director which defines common products that will be made using a given builder, although not necessary the director comes in handy.If at any point you would like to obtain and run these files refer to the root `README.md` found [here](../../).
 
