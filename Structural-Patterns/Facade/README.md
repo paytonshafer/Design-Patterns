@@ -1,12 +1,8 @@
-# NOT YET COMPLETE
-
 # Facade Pattern
-This directory contains examples of the Facade design pattern implemented in TypeScript. 
-
-If at any point you would like to obtain and run these files refer to the root `README.md` found [here](../../).
+This directory contains examples of the Facade design pattern implemented in TypeScript. The Facade pattern is a structural design pattern that provides a simplified interface to a complex subsystem or framework. It hides the complexities of the underlying subsystem and allows the client to interact with it through a single, unified interface. This pattern simplifies the usage of the system and allows for the client to work with a much simpler interface. If at any point you would like to obtain and run these files refer to the root `README.md` found [here](../../).
 
 ## Conceptual Example
 The conceptual example can be found in `conceptual.ts` and ran from `conceptual.js`. The TypeScript files contains the code and explanations of what each element does in the design pattern.
 
 ## Real-World Example
-TBD
+This example goes through using the complex libraries that go into converting videos to create a facade that allows one to turn `.ogg` files to `.mp4` files. The subsystem has a plethora of complex classes and methods. For simplicity we implemented then ourselves and the subsystem is represented by the following classes:  `VideoFile`, `Codec`, `MPEG4CompressionCodec`, `OggCompressionCodec`, `CodecFactory`, `BitrateReader`, and `AudioMixer`. These classes have functionality for dealing with all kinds of things but we use the `VideoConversionFacade` to create a simple way for the client to convert videos with out deailing with the complex subsystems.
