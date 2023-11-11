@@ -1,4 +1,7 @@
-### Creational Patterns
+## Creational Pattern
+Creational design patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code.
+
+### Patterns
 1. **Factory Method**: [Link to Factory Method Examples](./Factory-Method/)
 
 2. **Abstract Factory**: [Link to Abstract Factory Examples](./Abstract-Factory/)
