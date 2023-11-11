@@ -1,4 +1,7 @@
-### Behavioral Patterns
+## Behavioral Patterns
+Behavioral design patterns are concerned with algorithms and the assignment of responsibilities between objects.
+
+### Patterns
 1. **Chain of Responsibility**: [Link to Chain of Responsibility Examples](./Chain-of-Responsibility/)
 
 2. **Command**: [Link to Command Examples](./Command/)
