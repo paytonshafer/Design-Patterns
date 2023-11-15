@@ -1,0 +1,8 @@
+# Iterator Pattern
+This directory contains examples of the Iterator design pattern implemented in TypeScript. The Iterator pattern is a behavioral design pattern that provides a mechanism for traversing elements within a collection without revealing the specifics of its internal structure, such as whether it is a list, stack, tree, or other form. This pattern enhances the flexibility and separation of concerns in the codebase, allowing for seamless iteration over different types of collections. If at any point you would like to obtain and run these files refer to the root `README.md` found [here](../../).
+
+## Conceptual Example
+The conceptual example can be found in `conceptual.ts` and ran from `conceptual.js`. The TypeScript files contains the code and explanations of what each element does in the design pattern.
+
+## Real-World Example
+The real world example I chose is tree traversals. The tree data structure is used a lot in prorgams so being able to traverse them well is key. Using the iterator pattern we are able to implement both breadth first and depth first tree traversals. With the `Iterator` interface we create classes `DepthFirstIterator` and `BreadthFirstIterator`. These classes allow to iterate through `TreeNode` objects in their respective ways. We then have the `TreeNodeCollection` which is given a root and responisble for creating the two types of iteratos for said tree.
