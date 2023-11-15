@@ -1,8 +1,0 @@
-# Mediator Pattern
-This directory contains examples of the Mediator design pattern implemented in TypeScript. The Mediator pattern is a behavioral design pattern that aims to minimize complex dependencies among objects. By introducing a mediator object, the pattern enforces a structured communication approach, compelling objects to interact through the mediator. This promotes a more organized and centralized control over interactions, reducing the interdependencies and enhancing the maintainability of the system. If at any point you would like to obtain and run these files refer to the root `README.md` found [here](../../).
-
-## Conceptual Example
-The conceptual example can be found in `conceptual.ts` and ran from `conceptual.js`. The TypeScript files contains the code and explanations of what each element does in the design pattern.
-
-## Real-World Example
-The real world example is a simple login dialog with texboxes and a button. The `Mediator` interface is used by the `AuthenticationDialog` which controls the application. The components we work with are `Button` and `TextBox`. You can click them both and use a key down function with only the `TextBox`. When clicking the `TextBox` objects you will make it active so it can then read in and add new characters via the key down function. You can then login by using the login buttons click function. The mediator deals with all functionality and the componenets are never aware of one another.

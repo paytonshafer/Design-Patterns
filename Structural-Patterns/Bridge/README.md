@@ -1,8 +1,0 @@
-# Bridge Pattern
-This directory contains examples of the Bridge design pattern implemented in TypeScript. The Bridge pattern is a structural design pattern that focuses on decoupling an abstraction from its implementation so that the two can vary independently. It achieves this by creating two separate hierarchies, one for the abstraction and the other for the implementation, and allows them to evolve separately. It enables you to create different implementations and switch between them without affecting the abstraction or the client code. The Abstraction represents the high-level interface in the client code. It defines the operations that the client uses, which are implemented through the implementation interface. The Implementation represents the interface that defines the methods that the abstraction relies on. It is implemented by concrete implementation classes. If at any point you would like to obtain and run these files refer to the root `README.md` found [here](../../).
-
-## Conceptual Example
-The conceptual example can be found in `conceptual.ts` and ran from `conceptual.js`. The TypeScript files contains the code and explanations of what each element does in the design pattern.
-
-## Real-World Example
-For our realworld example we use devices and remotes. The `Device` interface is the implementation that has the basic operations that all the concrete devices will implement. Our concrete implementations are `Radio` and `TV`. The abstraction used to interact with these is the `Remote`. For the remote we have a `BasicRemote` and `AdvancedRemote`. The `AdvancedRemote` has an extra feature where it can mute the device. The remotes can work with any device and allows for a layer of abstraction for interacting with a device.

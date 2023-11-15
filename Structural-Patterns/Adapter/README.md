@@ -1,8 +1,0 @@
-# Adapter Pattern
-This directory contains examples of the Adapter design pattern implemented in TypeScript. The Adapter acts as a wrapper for two objects with incompatible iterfaces. It catches all calls from the first object to the second then transforms them to an interface that is compatible with the second. Adapters may help an object that only works with JSON objects and an object that only works with XML objects communicate by transforming the arguments of the calls to each object. For example, if the object that works with JSON wants to use the other object, the Adapter can turn the JSON into XML such that the second object will understand it. If at any point you would like to obtain and run these files refer to the root `README.md` found [here](../../).
-
-## Conceptual Example
-The conceptual example can be found in `conceptual.ts` and ran from `conceptual.js`. The TypeScript files contains the code and explanations of what each element does in the design pattern.
-
-## Real-World Example
-For the real world example I chose to do a problem from everones childhood, pegs and holes. The problem is is that we have a board of holes and two types of pegs: round and square. The question that arises is how would one put a square pet in a round hole. We can use an adapter to turn the square peg to a round peg so it then can be used in the round hole. The target class is the `RoundPeg` class which works with the client interface: `RoundHole`. We then have the adaptee `SquarePeg` which is incompatible with with `RoundHole`. To use it we have to wrap the the `SquarePeg` in an Adapter `SquarePegAdapter` that extends `RoundPeg` and allows a `SquarePeg` to be used, or fit, in the `RoundHole`.
