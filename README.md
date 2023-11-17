@@ -1,6 +1,6 @@
 # Design Patterns in TypeScript
 
-Welcome to the "Design Patterns in TypeScript" repository! In this project, you can explore various design patterns that provide conceptual as well as real-world examples of their implementation using TypeScript. This repository serves as a learning resource for developers interested in design patterns and TypeScript. A great reasource for learning more about the design patterns in this repository and seeing examples in many top programming languages can be found [here](https://refactoring.guru/design-patterns).
+Welcome to the "Design Patterns in TypeScript" repository! In this project, you can explore various design patterns that provide conceptual as well as real-world examples of their implementation using TypeScript. This repository serves as a learning resource for developers interested in design patterns and TypeScript. Thank you for checking out this repository, this project was a way for me to learn popular design patterns while strenghtening my OOP and TypeScript skills. A great reasource for learning more about the design patterns in this repository and seeing examples in many top programming languages can be found [here](https://refactoring.guru/design-patterns).
 
 ## Table of Contents
 1. [Introduction](#introduction)
